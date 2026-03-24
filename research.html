@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research — Shahak Livne-Tarandach</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body class="research-page">
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-name"><a href="index.html">Shahak Livne-Tarandach</a></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html" class="active">Research</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- RESEARCH HERO -->
+  <section class="r-hero">
+    <div class="r-hero-inner">
+      <p class="hero-eyebrow">Neuroscience · Binghamton University · 2025</p>
+      <h1>Sex Differences in Affective Behavior and the Augmentation of Enkephalin Expression in the Ventral Pallidum</h1>
+      <p class="r-hero-sub">An investigation into how biological sex shapes anxiety-like behavior, opioid consumption, and the enkephalin/MOR system in the ventral pallidum of Long-Evans rats.</p>
+    </div>
+  </section>
+
+  <!-- STICKY SECTION NAV -->
+  <div class="section-nav" id="sectionNav">
+    <button class="snav-btn active" data-target="s-overview">Overview</button>
+    <button class="snav-btn" data-target="s-background">Background</button>
+    <button class="snav-btn" data-target="s-methods">Methods</button>
+    <button class="snav-btn" data-target="s-results">Results</button>
+    <button class="snav-btn" data-target="s-discussion">Discussion</button>
+    <button class="snav-btn" data-target="s-implications">Implications</button>
+  </div>
+
+  <!-- ====== OVERVIEW ====== -->
+  <section class="r-section" id="s-overview">
+    <div class="r-section-inner">
+      <div class="r-section-label">Overview</div>
+      <h2>The Big Picture</h2>
+      <p class="r-lead">Substance use disorder (SUD) is one of the fastest-growing public health crises in the U.S. — and women are disproportionately bearing its rise. Yet neuroscience has historically studied addiction almost exclusively in males.</p>
+
+      <div class="crisis-numbers">
+        <div class="cn-item reveal">
+          <div class="cn-num">48.4M</div>
+          <div class="cn-label">Americans with SUD in 2025</div>
+        </div>
+        <div class="cn-item reveal">
+          <div class="cn-num">105K</div>
+          <div class="cn-label">Drug overdose deaths in 2023</div>
+        </div>
+        <div class="cn-item reveal">
+          <div class="cn-num">480%</div>
+          <div class="cn-label">Rise in female drug overdoses since 1999</div>
+        </div>
+        <div class="cn-item reveal">
+          <div class="cn-num">80K</div>
+          <div class="cn-label">Opioid-involved deaths in 2023</div>
+        </div>
+      </div>
+
+      <div class="overview-gap">
+        <h3>The Research Gap</h3>
+        <div class="gap-grid">
+          <div class="gap-card">
+            <div class="gap-icon">◯</div>
+            <h4>Prior focus: KOR &amp; DOR</h4>
+            <p>Most sex-difference studies examined the kappa or delta opioid receptor systems — each mediating only <em>one</em> dimension of reinforcement.</p>
+          </div>
+          <div class="gap-card gap-arrow">→</div>
+          <div class="gap-card gap-highlight">
+            <div class="gap-icon">●</div>
+            <h4>This study: ENK/MOR</h4>
+            <p>The μ-opioid receptor mediates <em>both</em> positive and negative reinforcement. We examined it in the ventral pallidum — a brain region never studied for this purpose.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hypotheses-row">
+        <h3>Hypotheses</h3>
+        <div class="hyp-cards">
+          <div class="hyp-card">
+            <span class="hyp-tag">H1</span>
+            <p>Female rats will exhibit <strong>greater anxiety-like behavior</strong> than male rats</p>
+            <span class="badge badge-null">✗ Not Supported</span>
+          </div>
+          <div class="hyp-card">
+            <span class="hyp-tag">H2</span>
+            <p>Female rats will exhibit <strong>greater oxycodone intake</strong> than male rats</p>
+            <span class="badge badge-supported">✓ Supported</span>
+          </div>
+          <div class="hyp-card">
+            <span class="hyp-tag">H3</span>
+            <p>Female rats will express <strong>greater enkephalin</strong> in the ventral pallidum</p>
+            <span class="badge badge-supported">✓ Supported</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== BACKGROUND ====== -->
+  <section class="r-section r-section-alt" id="s-background">
+    <div class="r-section-inner">
+      <div class="r-section-label">Background</div>
+      <h2>The Science Behind the Study</h2>
+
+      <div class="bg-timeline">
+
+        <div class="bt-item reveal">
+          <div class="bt-marker"></div>
+          <div class="bt-content">
+            <h4>Anxiety &amp; SUD</h4>
+            <p>In more than 50% of SUD cases, a preceding anxiety disorder was present. Children with anxiety disorders are significantly more likely to experiment with substances and develop SUD. Yet evidence on <em>sex differences in anxiety</em> remains mixed — some studies show females are less anxious, others show the opposite.</p>
+          </div>
+        </div>
+
+        <div class="bt-item reveal">
+          <div class="bt-marker"></div>
+          <div class="bt-content">
+            <h4>Women &amp; Oxycodone</h4>
+            <p>Women use ~8% more analgesics than men. Female rats consume 30–40% more oxycodone during escalation phases, show higher plasma oxycodone concentrations, and more readily reinstate drug-seeking behavior after extinction — pointing to heightened pharmacokinetic sensitivity and relapse vulnerability.</p>
+          </div>
+        </div>
+
+        <div class="bt-item reveal">
+          <div class="bt-marker"></div>
+          <div class="bt-content">
+            <h4>The Enkephalin / MOR System</h4>
+            <p>Enkephalin (ENK) is the endogenous ligand for the μ-opioid receptor (MOR). When ENK binds to MORs on GABA interneurons, it inhibits GABA release — disinhibiting dopamine neurons and increasing dopamine signaling. This pathway mediates both the euphoric effects of opioids <em>and</em> withdrawal symptoms, making it a uniquely important target.</p>
+          </div>
+        </div>
+
+        <div class="bt-item reveal">
+          <div class="bt-marker"></div>
+          <div class="bt-content">
+            <h4>The Ventral Pallidum</h4>
+            <p>The ventral pallidum (VP) is a key hub for motivated behavior and drug-seeking. As a major output of the nucleus accumbens, neural activity in the VP directly shapes behavioral outcomes. Despite known sex-specific differences in VP structure (e.g., vasopressin receptor expression), the ENK/MOR system within the VP had never been studied for sex differences.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Brain pathway diagram -->
+      <div class="brain-pathway reveal">
+        <h3>The Reward Pathway — Simplified</h3>
+        <div class="pathway-diagram">
+          <div class="pd-node">
+            <div class="pd-circle">ENK</div>
+            <span>Enkephalin<br/>released</span>
+          </div>
+          <div class="pd-arrow">→</div>
+          <div class="pd-node">
+            <div class="pd-circle">MOR</div>
+            <span>Binds μ-opioid<br/>receptor</span>
+          </div>
+          <div class="pd-arrow">→</div>
+          <div class="pd-node">
+            <div class="pd-circle">GABA↓</div>
+            <span>Inhibits GABA<br/>interneurons</span>
+          </div>
+          <div class="pd-arrow">→</div>
+          <div class="pd-node">
+            <div class="pd-circle">DA↑</div>
+            <span>Dopamine<br/>disinhibited</span>
+          </div>
+          <div class="pd-arrow">→</div>
+          <div class="pd-node pd-node-end">
+            <div class="pd-circle">VP</div>
+            <span>Ventral pallidum<br/>activity</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== METHODS ====== -->
+  <section class="r-section" id="s-methods">
+    <div class="r-section-inner">
+      <div class="r-section-label">Methods</div>
+      <h2>How We Did It</h2>
+      <p class="r-lead">62 Long-Evans rats (31 male, 31 female) were studied using three distinct approaches across a structured timeline.</p>
+
+      <!-- Timeline -->
+      <div class="methods-timeline">
+        <div class="mt-row reveal">
+          <div class="mt-label">PD 21</div>
+          <div class="mt-bar-wrap">
+            <div class="mt-bar" style="width:4%"></div>
+            <span>Weaning</span>
+          </div>
+        </div>
+        <div class="mt-row reveal">
+          <div class="mt-label">PD ~60</div>
+          <div class="mt-bar-wrap">
+            <div class="mt-bar" style="width:20%"></div>
+            <span>Successive Alleys Test (Anxiety)</span>
+          </div>
+        </div>
+        <div class="mt-row reveal">
+          <div class="mt-label">PD ~65</div>
+          <div class="mt-bar-wrap">
+            <div class="mt-bar" style="width:80%"></div>
+            <span>Oxycodone Self-Administration — 8 weeks (3 hrs/day, Mon–Fri)</span>
+          </div>
+        </div>
+        <div class="mt-row reveal">
+          <div class="mt-label">Post-SA</div>
+          <div class="mt-bar-wrap">
+            <div class="mt-bar" style="width:25%"></div>
+            <span>ENK ELISA on VP Tissue</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="methods-cards">
+        <div class="method-card reveal">
+          <div class="method-num">01</div>
+          <h3>Successive Alleys Test</h3>
+          <p>Four linearly connected zones ranging from dark (anxiolytic) to light (anxiogenic). Rats placed in dark zone for 5 minutes. Anxiety measured by zone entries and time in Zone 1.</p>
+          <ul>
+            <li>Entries into each alley</li>
+            <li>Time spent in each alley</li>
+            <li>Entries into Zone 1 (dark)</li>
+            <li>Total time in Zone 1</li>
+          </ul>
+        </div>
+        <div class="method-card reveal">
+          <div class="method-num">02</div>
+          <h3>Oxycodone Self-Administration</h3>
+          <p>Oral drinking paradigm. Rats given access to 0.06 mg/ml oxycodone solution for 3 hrs/day, 5 days/week, for 8 weeks. Consumption normalized to body weight.</p>
+          <ul>
+            <li>Weekly average consumption</li>
+            <li>Eight-week average consumption</li>
+            <li>Total cumulative consumption</li>
+          </ul>
+        </div>
+        <div class="method-card reveal">
+          <div class="method-num">03</div>
+          <h3>ENK ELISA</h3>
+          <p>Competitive ELISA on VP tissue (LSBio Rat ENK ELISA Kit, LS-F39250). ENK in samples competes with pre-coated antigen to bind detection antibody. OD measured at 450 nm — lower OD = higher ENK.</p>
+          <ul>
+            <li>Standard dilution series (0–40 ng/mL)</li>
+            <li>HRP-TMB color development</li>
+            <li>96-well microplate reader</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== RESULTS ====== -->
+  <section class="r-section r-section-alt" id="s-results">
+    <div class="r-section-inner">
+      <div class="r-section-label">Results</div>
+      <h2>What We Found</h2>
+
+      <!-- Result 1: Anxiety -->
+      <div class="result-block reveal">
+        <div class="result-header">
+          <div class="result-hyp">H1</div>
+          <div>
+            <h3>Anxiety-Like Behavior</h3>
+            <span class="badge badge-null">Not Supported</span>
+          </div>
+        </div>
+        <div class="result-body">
+          <div class="result-chart-wrap">
+            <canvas id="anxietyChart"></canvas>
+          </div>
+          <div class="result-text">
+            <p>No significant difference was found between male and female rats on any of the four anxiety measures:</p>
+            <ul class="stat-list">
+              <li>Alley entries: <span class="stat-val">F(1,60) = 0.308, p = .580</span></li>
+              <li>Time per alley: <span class="stat-val">F(1,240) = 0.004, p = .948</span></li>
+              <li>Zone 1 entries: <span class="stat-val">t(60) = 0.08, p = .930</span></li>
+              <li>Time in Zone 1: <span class="stat-val">t(60) = −0.338, p = .736</span></li>
+            </ul>
+            <p class="result-insight">Male Zone 1 time: 215.23 ± 51.52 s<br/>Female Zone 1 time: 210.81 ± 51.27 s</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Result 2: Oxycodone -->
+      <div class="result-block reveal">
+        <div class="result-header">
+          <div class="result-hyp">H2</div>
+          <div>
+            <h3>Oxycodone Self-Administration</h3>
+            <span class="badge badge-supported">Supported — p &lt; .001</span>
+          </div>
+        </div>
+        <div class="result-body">
+          <div class="result-chart-wrap result-chart-tall">
+            <canvas id="oxyWeeklyChart"></canvas>
+          </div>
+          <div class="result-text">
+            <p>Female rats consumed significantly more oxycodone than males across all three measures:</p>
+            <ul class="stat-list">
+              <li>Weekly avg: <span class="stat-val">F(1,27) = 61.89, p &lt; .0001</span></li>
+              <li>8-wk avg: <span class="stat-val">t(18.83) = 5.17, p &lt; .001</span></li>
+              <li>Total cumulative: <span class="stat-val">t(23.3) = 2.14, p = .043</span></li>
+            </ul>
+            <div class="comparison-bar-wrap">
+              <h4>8-Week Average (mg/kg)</h4>
+              <div class="comp-bar-row">
+                <span class="comp-label">Male</span>
+                <div class="comp-bar-track">
+                  <div class="comp-bar comp-bar-male" data-width="44"></div>
+                </div>
+                <span class="comp-val">0.98</span>
+              </div>
+              <div class="comp-bar-row">
+                <span class="comp-label">Female</span>
+                <div class="comp-bar-track">
+                  <div class="comp-bar comp-bar-female" data-width="100"></div>
+                </div>
+                <span class="comp-val">2.24</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Result 3: ENK -->
+      <div class="result-block reveal">
+        <div class="result-header">
+          <div class="result-hyp">H3</div>
+          <div>
+            <h3>Enkephalin Expression in the Ventral Pallidum</h3>
+            <span class="badge badge-supported">Supported — p = .032</span>
+          </div>
+        </div>
+        <div class="result-body">
+          <div class="result-chart-wrap">
+            <canvas id="enkChart"></canvas>
+          </div>
+          <div class="result-text">
+            <p>Female rats expressed significantly higher ENK levels in the VP:</p>
+            <ul class="stat-list">
+              <li>Male ENK: <span class="stat-val">59.62 ± 34.71 pg/mL</span></li>
+              <li>Female ENK: <span class="stat-val">85.15 ± 21.59 pg/mL</span></li>
+              <li>Test: <span class="stat-val">t(16.71) = 1.97, p = .032</span></li>
+            </ul>
+            <p class="result-insight">This is the <strong>first reported sex difference in pallidal ENK expression</strong>. The higher ENK in females may reflect augmented MOR activity — possibly through desensitization — suggesting a more active reward and withdrawal system even at baseline.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ====== DISCUSSION ====== -->
+  <section class="r-section" id="s-discussion">
+    <div class="r-section-inner">
+      <div class="r-section-label">Discussion</div>
+      <h2>What It Means</h2>
+
+      <div class="discussion-grid">
+        <div class="disc-item reveal">
+          <h3>Why no anxiety difference?</h3>
+          <p>The absence of sex differences in anxiety-like behavior in a non-stressed environment is consistent with prior work (Yang et al., 2019; Vaughan et al., 2025). Sex differences in anxiety may be context-dependent — emerging under stress conditions rather than in baseline environments. The specific test used may also matter: Scholl et al. (2019) found inconsistent sex differences across different anxiety tests.</p>
+        </div>
+        <div class="disc-item reveal">
+          <h3>Females consume more — why?</h3>
+          <p>Female rats consumed significantly more oxycodone at every time point. This aligns with the broader literature (Doyle et al., 2023; Kimbrough et al., 2020) and may reflect sex-specific pharmacokinetic processing, hormonal modulation of opioid sensitivity, and greater reinstatement after extinction. The pattern mirrors the clinical rise in female opioid use disorder.</p>
+        </div>
+        <div class="disc-item reveal">
+          <h3>What does elevated ENK mean?</h3>
+          <p>Higher ENK in females suggests greater activity in the reward and withdrawal systems — even without opioid exposure. Elevated ENK can lead to MOR desensitization (Gupta, 2021), which may prime females for heightened opioid sensitivity and relapse risk. This neurobiological profile could precede and predict SUD vulnerability.</p>
+        </div>
+        <div class="disc-item reveal">
+          <h3>The VP as a missing piece</h3>
+          <p>The ventral pallidum, as a key output of the nucleus accumbens, shapes motivational behavior. Its near-total absence from sex-difference research in addiction is striking. Our data provide the first evidence that sex differences in the ENK/MOR system exist in this region — opening a new frontier for targeted intervention.</p>
+        </div>
+      </div>
+
+      <!-- Limitations -->
+      <div class="limitations reveal">
+        <h3>Limitations</h3>
+        <ul>
+          <li>Only one anxiety test (Successive Alleys) was used; results may differ across tests</li>
+          <li>ELISA detection limits prevented direct MOR quantification in the VP</li>
+          <li>ENK was measured prior to oxycodone exposure — future studies should assess neuroadaptations <em>after</em> consumption</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== IMPLICATIONS ====== -->
+  <section class="r-section r-section-alt" id="s-implications">
+    <div class="r-section-inner">
+      <div class="r-section-label">Implications</div>
+      <h2>Where This Goes</h2>
+
+      <div class="impl-grid">
+        <div class="impl-card reveal">
+          <div class="impl-icon">⊙</div>
+          <h3>Biomarker-Based Early Detection</h3>
+          <p>ENK/MOR-related biomarkers in the VP, potentially measurable via PET imaging, could identify individuals — especially women — at high risk for SUD <em>before it develops</em>. This represents a paradigm shift from treatment to prevention.</p>
+        </div>
+        <div class="impl-card reveal">
+          <div class="impl-icon">⊕</div>
+          <h3>Sex-Specific Relapse Prevention</h3>
+          <p>The hyperactive reward/withdrawal system in females, reflected in elevated ENK, suggests females may benefit from targeted pharmacotherapy that normalizes MOR sensitivity. Current one-size-fits-all protocols leave females underserved.</p>
+        </div>
+        <div class="impl-card reveal">
+          <div class="impl-icon">⊗</div>
+          <h3>Future Research Directions</h3>
+          <p>Direct measurement of MOR expression and function, assessment of estradiol modulation of ENK/MOR activity, comparison of anxiety-like behavior with and without stressors, and clinical translation to human trials are all urgent next steps.</p>
+        </div>
+      </div>
+
+      <div class="closing-quote reveal">
+        <blockquote>
+          "The strong sex-specific differences observed in this study call our attention to females' heightened vulnerability to SUD. Identifying ENK/MOR-related biomarkers in the VP could allow prevention before SUD emerges."
+        </blockquote>
+        <cite>— Shahak Livne-Tarandach</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABSTRACT DOWNLOAD STRIP -->
+  <section class="abstract-strip">
+    <div class="abstract-inner">
+      <div>
+        <h3>Read the Full Abstract</h3>
+        <p>Substance use disorder, sex differences, enkephalin, ventral pallidum, Long-Evans rats</p>
+      </div>
+      <a href="index.html#contact" class="btn-primary">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>© 2026 Shahak Livne-Tarandach</span>
+    <span>Binghamton University</span>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

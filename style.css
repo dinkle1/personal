@@ -461,15 +461,24 @@ footer {
 .pathway-diagram {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  padding: 2rem;
+  justify-content: space-between;
+  gap: 0;
+  padding: 2.5rem 2rem;
   background: var(--black);
   border: 1px solid #1e1e1e;
+  overflow-x: auto;
 }
-.pd-node { text-align: center; display: flex; flex-direction: column; align-items: center; gap: .5rem; }
+.pd-node {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .6rem;
+  flex: 1;
+  min-width: 80px;
+}
 .pd-circle {
-  width: 64px; height: 64px;
+  width: 68px; height: 68px;
   border-radius: 50%;
   border: 1px solid #333;
   display: flex;
@@ -479,10 +488,11 @@ footer {
   font-size: 1rem;
   color: var(--white);
   background: #0f0f0f;
+  flex-shrink: 0;
 }
 .pd-node-end .pd-circle { border-color: #888; background: #1a1a1a; }
-.pd-node span { font-size: .7rem; color: #666; text-align: center; line-height: 1.4; }
-.pd-arrow { color: #333; font-size: 1.5rem; }
+.pd-node span { font-size: .68rem; color: #666; text-align: center; line-height: 1.5; }
+.pd-arrow { color: #2a2a2a; font-size: 1.2rem; flex-shrink: 0; padding: 0 .25rem; }
 
 /* METHODS */
 .methods-timeline {
@@ -677,6 +687,29 @@ blockquote {
   margin-bottom: .75rem;
 }
 cite { font-size: .8rem; letter-spacing: .08em; color: var(--gray-400); }
+
+/* AWARDS */
+.awards-list {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--gray-200);
+}
+.award-item {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 3rem;
+  align-items: center;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--gray-100);
+}
+.award-year {
+  font-size: .75rem;
+  letter-spacing: .1em;
+  color: var(--gray-400);
+  text-transform: uppercase;
+}
+.award-right h3 { font-size: 1.3rem; margin-bottom: .3rem; }
+.award-right p { font-size: .85rem; color: var(--gray-400); }
 
 /* ABSTRACT STRIP */
 .abstract-strip {
